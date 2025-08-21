@@ -1,0 +1,14 @@
+{
+    "name": "alemadlei/sample-card",
+    "description": "A SDC Sample Card component.",
+    "keywords": ["sdc", "drupal"],
+    "type": "drupal-component",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Alejandro Madrigal",
+            "homepage": "https://alemadlei.tech",
+            "role": "Maintainer"
+        }
+    ]
+}

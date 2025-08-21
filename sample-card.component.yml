@@ -1,0 +1,28 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/10.2.x/core/modules/sdc/src/metadata.schema.json
+
+name: "Sample card"
+props:
+  type: object
+
+  required:
+    - title
+
+  properties:
+    title:
+      description: The card title
+      title: Title
+      type: string
+
+    read_more_label:
+      description: The read more label
+      title: Read more label
+      type: string
+
+slots:
+  content:
+    description: The content to display
+    title: Content
+
+  media:
+    description: Media shown on the card
+    title: Media
