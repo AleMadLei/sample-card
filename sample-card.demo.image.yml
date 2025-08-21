@@ -1,0 +1,14 @@
+name: "Image card"
+description: "A demo with an image"
+props:
+  title: This is my card title
+  read_more_label: Read more
+
+slots:
+  content: "
+    <p>This is just some content</p>
+    <p>Setup as markup</p>
+    "
+  media: '
+    <img src="https://fastly.picsum.photos/id/192/200/300.jpg?hmac=UAXa6z_MKaSlyDXrwECLl6XBp0jzyV3C2eSvsfMi_uc" alt="Sample image" />
+    '

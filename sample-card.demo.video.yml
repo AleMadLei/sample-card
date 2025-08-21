@@ -1,0 +1,14 @@
+name: "Video card"
+description: "A demo with a video"
+props:
+  title: This is my card title
+  read_more_label: Read more
+
+slots:
+  content: "
+    <p>This is just some different content</p>
+    <p>Also setup as markup</p>
+    "
+  media: '
+    <iframe width="1218" height="685" src="https://www.youtube.com/embed/yJ7UwkTfTFU?list=RDyJ7UwkTfTFU" title="Soul Blazer - Lonely Town, Lively Town" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    '
